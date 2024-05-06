@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cement Manufacturing & Supply Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cement Manufacturing & Supply Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a leading cement manufacturing and supply company dedicated to providing high-quality cement products for construction projects.</p>
+        </div>
+    </section>
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <img src="cement1.jpg" alt="Cement Bag 1">
+                <h3>Portland Cement</h3>
+                <p>High-quality general-purpose cement suitable for a wide range of construction applications.</p>
+            </div>
+            <div class="product">
+                <img src="cement2.jpg" alt="Cement Bag 2">
+                <h3>Rapid-Setting Cement</h3>
+                <p>Specialized cement that sets quickly, ideal for time-sensitive projects.</p>
+            </div>
+            <div class="product">
+                <img src="cement3.jpg" alt="Cement Bag 3">
+                <h3>White Cement</h3>
+                <p>Premium quality white cement suitable for decorative and architectural applications.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to us!</p>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cement Manufacturing & Supply Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
